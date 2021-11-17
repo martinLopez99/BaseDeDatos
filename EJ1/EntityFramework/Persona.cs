@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EntityFrameworkTP4
 {
-    class Persona
+    public class Persona
     {
         public int PersonaId { get; set; }
 

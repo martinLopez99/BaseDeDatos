@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace EntityFrameworkTP4
 {
-    class Telefono
+    public class Telefono
     {
-        public int TelefonoID ¨
+        public int TelefonoId { get; set; }
+
+        public string Numero { get; set; }
+
+        public string Tipo { get; set; }
     }
 }

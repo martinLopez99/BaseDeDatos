@@ -29,11 +29,21 @@ namespace EntityFrameworkTP4
                     }
                 };
 
-                db
+                db.Personas.Add(mPersona);
+
+                db.SaveChanges();
+
+                //busqueda
+                foreach (var item in db.Personas)
+                {
+                    Console.WriteLine("Persona encontrada Nombre: {0}, Apellido: {1}, IdPersona:{2}",
+                                      item.Nombre,
+                                      item.Apellido,
+                                      item.PersonaId);
+                }
+
+                Console.ReadKey();
             }
-
-
-
         }
     }
 }
