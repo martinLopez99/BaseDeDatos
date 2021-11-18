@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ffauJUN3ibyka1jatoJ/iNG7d2vZRZD4ErJqEhifbw4WnHa6r3xXK6OGRJUeoKHwMflRg4AYn4GOimugvxGcWw==",
+  "dgSpecHash": "LgRAQeuI+IvOG3FoUG6nUB58KmZBD/HqP/MdGFN8Fwwa40X8qMghHAMiDkTlMkSxNcL2QHemsdzzHWzQLNMDyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Acceso a Base de Datos\\TP4\\EJ1\\EJ2\\EJ2.csproj",
+  "projectFilePath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Acceso a Base de Datos\\TP4\\EJ1\\EJ2\\AccountManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

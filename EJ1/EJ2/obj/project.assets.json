@@ -1048,9 +1048,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Acceso a Base de Datos\\TP4\\EJ1\\EJ2\\EJ2.csproj",
-      "projectName": "EJ2",
-      "projectPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Acceso a Base de Datos\\TP4\\EJ1\\EJ2\\EJ2.csproj",
+      "projectUniqueName": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Acceso a Base de Datos\\TP4\\EJ1\\EJ2\\AccountManager.csproj",
+      "projectName": "AccountManager",
+      "projectPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Acceso a Base de Datos\\TP4\\EJ1\\EJ2\\AccountManager.csproj",
       "packagesPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Acceso a Base de Datos\\TP4\\EJ1\\EJ2\\obj\\",
       "projectStyle": "PackageReference",

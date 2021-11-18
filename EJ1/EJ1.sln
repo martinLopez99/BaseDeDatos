@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkTP5", "EntityFramework\EntityFrameworkTP5.csproj", "{5E80863E-4F96-4DCA-90CD-DA08BED59CE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EJ2", "EJ2\EJ2.csproj", "{79F810F4-9996-43C9-8AC4-BBA95DCF5C84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountManager", "EJ2\AccountManager.csproj", "{79F810F4-9996-43C9-8AC4-BBA95DCF5C84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
