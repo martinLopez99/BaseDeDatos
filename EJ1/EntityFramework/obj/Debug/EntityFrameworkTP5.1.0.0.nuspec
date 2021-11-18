@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EntityFrameworkTP5</id>
+    <version>1.0.0</version>
+    <authors>EntityFrameworkTP5</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="EntityFramework" version="6.4.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Tincho.DESKTOP-D357Q8G\Desktop\Tincho\Drive\UTN\4to año\Taller de Programacion\Acceso a Base de Datos\TP4\EJ1\EntityFramework\bin\Debug\net5.0\EntityFrameworkTP5.runtimeconfig.json" target="lib\net5.0\EntityFrameworkTP5.runtimeconfig.json" />
+    <file src="C:\Users\Tincho.DESKTOP-D357Q8G\Desktop\Tincho\Drive\UTN\4to año\Taller de Programacion\Acceso a Base de Datos\TP4\EJ1\EntityFramework\bin\Debug\net5.0\EntityFrameworkTP5.dll" target="lib\net5.0\EntityFrameworkTP5.dll" />
+  </files>
+</package>
