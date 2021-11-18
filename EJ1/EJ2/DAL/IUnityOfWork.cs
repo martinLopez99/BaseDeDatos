@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace AccountManager.DAL
 {
-    interface IUnityOfWork
+    public interface IUnityOfWork
     {
+        public void Complete();
+
+        public IAccountRepository AccountRepository { get;  set; }
+
+        public IClientRepository ClientRepository { get ;  set; }
     }
 }

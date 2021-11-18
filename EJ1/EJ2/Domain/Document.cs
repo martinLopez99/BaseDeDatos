@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EJ2.Domain
 {
-    class Document
+    public class Document
     {
         DocumentType Type = new DocumentType();
 

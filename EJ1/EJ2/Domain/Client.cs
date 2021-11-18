@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EJ2.Domain
 {
-    class Client
+    public class Client
     {
 
         List<Account> Accounts = new List<Account>();

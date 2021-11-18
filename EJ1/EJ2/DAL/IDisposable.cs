@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace AccountManager.DAL
 {
-    public interface IClientRepository
+    public  interface IDisposable
     {
-
     }
 }

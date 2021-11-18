@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EJ2.Domain
 {
-    class AccountMovement
+    public class AccountMovement
     {
         public int Id { get; set; }
 

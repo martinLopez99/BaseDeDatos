@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EJ2.Domain
 {
-    class Account
+    public class Account
     {
         List<AccountMovement> Movements  = new List<AccountMovement>();
 

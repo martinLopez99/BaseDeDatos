@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace AccountManager.DAL
 {
-    interface IRepository
+    public interface IRepository<TEntity> where TEntity : class {AccountManager. }
     {
-    }
+        public void Add(TEntity pEntity);
+        public void Remove(TEntity pEntity);
+        public TEntity Get(int pId);
+        public IEnumerable<TEntity> GetAll();
+            
+       
 }
