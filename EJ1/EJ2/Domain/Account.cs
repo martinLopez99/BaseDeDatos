@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AccountManager.Domain
+namespace EJ2.Domain
 {
     public class Account
     {
