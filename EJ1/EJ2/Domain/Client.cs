@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EJ2.Domain
+namespace AccountManager.Domain
 {
     public class Client
     {
