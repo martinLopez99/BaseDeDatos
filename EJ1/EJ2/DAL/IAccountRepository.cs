@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace AccountManager.DAL
 {
-    public interface IAccountRepository: IRepository<>
+    public interface IAccountRepository
     {
-        public double GetAccountBalance(Account pAccount);
+        public double GetAccountBalance(AccountManager.Domain.Account pAccount);
 
-        public IEnumerable<Account> GetOverdrawnAccounts();
+        public IEnumerable<AccountManager.Domain.Account> GetOverdrawnAccounts();
 
-        public IEnumerable<AccountMovement> GetLastMovements(Account pAccount, int pCount = 7);
+        public IEnumerable<AccountManager.Domain.AccountMovement> GetLastMovements(AccountManager.Domain.Account pAccount, int pCount = 7);
     }
 }
