@@ -13,5 +13,5 @@ namespace AccountManager.DAL
         public TEntity Get(int pId);
         public IEnumerable<TEntity> GetAll();
 
-    } 
+    }  
 }
