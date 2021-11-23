@@ -8,8 +8,10 @@ namespace AccountManager.Domain
 {
     public class Document
     {
-        DocumentType Type = new DocumentType();
 
-        public string Number { get; set; }
+        public DocumentType Type { get; set; }
+
+        public String Number { get; set; }
+
     }
 }

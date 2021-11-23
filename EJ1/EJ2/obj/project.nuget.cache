@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LgRAQeuI+IvOG3FoUG6nUB58KmZBD/HqP/MdGFN8Fwwa40X8qMghHAMiDkTlMkSxNcL2QHemsdzzHWzQLNMDyA==",
+  "dgSpecHash": "ggPmUGwLOZDxzLlsCO2apqxl2PsW8PVKT/OCeQBVOhaZSMTsxh0vXehjDhpppiJu/CDzWcso8PVQBuNMwE/Bmg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Acceso a Base de Datos\\TP4\\EJ1\\EJ2\\AccountManager.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
@@ -18,6 +19,7 @@
     "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\system.data.sqlclient.4.8.1.nupkg.sha512",
     "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
     "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",

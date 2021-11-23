@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace AccountManager.Domain
+namespace AccountManager.IO
 {
-    public class AccountMovement
+    public class AccountMovementDTO
     {
 
         public int Id { get; set; }

@@ -8,9 +8,14 @@ namespace AccountManager.Domain
 {
     public enum DocumentType
     {
-        DNI = 1,
-        CUIL = 2,
-        LE = 3,
-        LC = 4
+
+        DNI,
+
+        CUIL,
+
+        LE,
+
+        LC
+
     }
 }

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,7 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="IO\.cs" />
+    <Compile Remove="IO\NewFile1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Domain\NewFile1.txt" />
+    <None Remove="IO\NewFile1.txt" />
+    <None Remove="Migrations\NewFile1.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -14,7 +21,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DAL\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
   </ItemGroup>
 
 </Project>

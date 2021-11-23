@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using AccountManager.Domain;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace AccountManager.DAL
 {
-    public interface IAccountRepository
+    public interface IAccountRepository : IRepository<Account>
     {
-        public double GetAccountBalance(AccountManager.Domain.Account pAccount);
 
-        public IEnumerable<AccountManager.Domain.Account> GetOverdrawnAccounts();
+        IEnumerable<Account> GetOverdrawnAccounts();
 
-        public IEnumerable<AccountManager.Domain.AccountMovement> GetLastMovements(AccountManager.Domain.Account pAccount, int pCount = 7);
     }
 }

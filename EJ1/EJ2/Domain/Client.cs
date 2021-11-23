@@ -1,22 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AccountManager.Domain
 {
     public class Client
     {
 
-        List<Account> Accounts = new List<Account>();
+        public int Id { get; set; }
 
-        Document ClientDocument = new Document();
+        public Document Document { get; set; }
 
-        public int IdCliente {  get;   set; }
+        public String FirstName { get; set; }
 
-        public string FirstName { get ;   set; }
+        public String LastName { get; set; }
 
-        public string LastName { get ;   set; }
+        public virtual IList<Account> Accounts { get; set; } = new List<Account>();
+
     }
 }  
