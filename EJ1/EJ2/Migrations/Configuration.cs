@@ -10,7 +10,7 @@ namespace AccountManager.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "UTN.FRCU.ISI.TdP.AccountManager.DAL.EntityFramework.AccountManagerDbContext";
+            ContextKey = "AccountManager.DAL.EntityFramework.AccountManagerDbContext";
         }
 
         protected override void Seed(AccountManager.DAL.EntityFramework.AccountManagerDbContext pContext)

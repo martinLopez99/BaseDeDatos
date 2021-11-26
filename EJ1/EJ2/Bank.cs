@@ -85,5 +85,51 @@ namespace AccountManager
             return mAccountMovements;
         }
 
+        //Dada una cuenta, se debe permitir obtener el balance y los últimos N movimientos de la misma
+        public IEnumerable<AccountMovementDTO> NMovimientos(int n, int pCuentaId)
+        {
+            var movimientos = GetAccountMovements(pCuentaId);
+            movimientos = movimientos.ToList();
+            movimientos.OrderBy(Date => Date);
+            return movimientos.Take(n);
+
+        }
+
+        public double Balance(int pAccountId)
+        {
+            using (var bDbContext = new AccountManagerDbContext())
+            {
+                using (IUnitOfWork bUoW = new UnitOfWork(bDbContext))
+                {
+                    var bAccount = bUoW.AccountRepository.Get(pAccountId);
+                    return bAccount.GetBalance();
+                }
+            }
+        }
+
+    //Se deben poder obtener todas las cuentas cuyo saldo sea negativo y que hayan superado el límite de descubierto.
+    public List<Account> Deudores(double pLimite)
+        {
+            using (var bDbContext = new AccountManagerDbContext()) 
+            {
+                AccountRepository repositorioCuentas = new AccountRepository(bDbContext);
+                IEnumerable<Account> listDeudoras;
+                listDeudoras = repositorioCuentas.GetOverdrawnAccounts();
+                List<Account> lista = new List<Account>();
+
+                foreach (var temp in listDeudoras)
+                {
+                    if (temp.GetBalance() < -pLimite)
+                    {
+                        lista.Add(temp);
+                    } 
+                }
+                return lista;
+            }
+        }
+
+
+
+        
     }
 }
